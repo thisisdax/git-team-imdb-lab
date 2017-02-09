@@ -36,12 +36,12 @@ To start:
 
 To practice using Git/GitHub as a team, you'll each take one model and build it on feature branches:
 
-**Student 1** should create a new branch called `actor-movie-models` and fill in the Actor and `Movie` models:
+**Dax** should create a new branch called `actor-movie-models` and fill in the Actor and `Movie` models:
   - Movies have and belong to many actors; they also have many reviews
   - Actors have and belong to many movies
   - The actor model should have an `age` method that returns the actors age by subtracting the actors `year_of_birth` from the `Time.now.year`
 
-**Student 2** should create a new branch called `review-user-models` and fill in the Review and an User models:
+**Andrew** should create a new branch called `review-user-models` and fill in the Review and an User models:
   - Reviews belong to movies; they also belong to users
   - Users have many reviews
   - The user model should have a `full_name` method that returns an interpolated string with the user's `first_name` and `last_name`
@@ -126,7 +126,7 @@ Ok, we're almost ready for our new and improved version of IMDB.  Be aware that 
 
 But to get you some practice, now, both partners are going to create new branches to build the controllers for this app using Git workflow:
 
-__Student 1__ should create a new branch called `student1-controllers` and __student 2__ should create a new branch called `student2-controllers`.  Use the specs below to individually build each controller - i.e. each person should make both.
+__dax__ should create a new branch called `student1-controllers` and __andrew__ should create a new branch called `student2-controllers`.  Use the specs below to individually build each controller - i.e. each person should make both.
 
 - Fill in the `actors_controller.rb` with the following methods and corresponding code: `show, new, create, edit, update`
  - The `Actor` params are `:name`, `:year_of_birth`, `:thumbnail`
@@ -147,13 +147,13 @@ You and your partner are working on the same project, merged in some work you di
 <img src='http://s16.postimg.org/fu91r8z05/Screen_Shot_2015_07_29_at_4_49_01_PM.png'>
 </p>
 
-Submit a pull request for student 1 and merge student 1's pull request. Then, try to create a pull request for student 2's work:
+Submit a pull request for dax and merge dax's pull request. Then, try to create a pull request for andrew's work:
 
 <p align='center'>
 <img src='http://s2.postimg.org/p7md53bqx/Screen_Shot_2015_07_29_at_7_34_00_PM.png'>
 </p>
 
-Oh no! We're unable to merge this in because student 1 and student 2 worked on the same files and now we have different versions of the files we're trying to combine.  Let's create pull request anyway and sort this out.
+Oh no! We're unable to merge this in because dax and andrew worked on the same files and now we have different versions of the files we're trying to combine.  Let's create pull request anyway and sort this out.
 
 ## `fetch`, `checkout`, `merge` from the command line
 
